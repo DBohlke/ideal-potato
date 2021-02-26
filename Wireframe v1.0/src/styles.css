@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+}
+body {
+  background: radial-gradient(#103e3f, #092c2d);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  color: #5ea3a6;
+  font-family: "Amatic SC", cursive;
+  font-size: 42px;
+  font-weight: 900;
+  text-align: left;
+}
+input {
+  background-color: #ffffdf;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 46px;
+  position: absolute;
+  right: 70px;
+}
+p {
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  position: absolute;
+  right: 0;
+  top: 400px;
+  padding: 10px;
+}
+span {
+  color: #3a718c;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 30px;
+}
+.col {
+  color: #3a718c;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 18px;
+  text-align: center;
+}
+.fa-cloud-sun {
+  color: #fdfdcf;
+  font-size: 30px;
+}
+.fa-cloud {
+  color: #bdbdbd;
+  font-size: 30px;
+}
+.current-forecast-container {
+  color: #5ea3a6;
+  font-family: "Amatic SC", cursive;
+  font-size: 42px;
+  position: absolute;
+  top: auto;
+  left: 10px;
+}
+.fa-sun {
+  font-size: 238px;
+  color: #fad2a8;
+}
+.temperature-toggle {
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+  border-radius: 100%;
+  color: #ffffdf;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 8px 8px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  vertical-align: middle;
+}
+.temperature-toggle:hover {
+  background-color: #5c636a;
+  border-color: #565e64;
+}
+.btn {
+  font-weight: 900;
+  font-size: 24px;
+  vertical-align: baseline;
+  position: absolute;
+  right: 0;
+}
+.search-container {
+  font-family: "Amatic SC", cursive;
+}
+.location-container {
+  color: #5ea3a6;
+  text-align: right;
+}
